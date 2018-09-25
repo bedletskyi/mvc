@@ -60,7 +60,7 @@ view('home', [], 'some_layout');
 Models are used to get and store data in your application. They know nothing about how this data is to be presented in the views. Models extend the [Model](vendor/Manticora/core/Model.php) class and use [PDO](http://php.net/manual/en/book.pdo.php) to access the database. They're stored in the `App/Models` folder. A sample user model class is included in [App/Models/Example.php](app/Models/Example.php). You can get data from database like this:
 
 ```php
-$this->row('SELECT * FORM users');
+$this->row('SELECT * FROM users');
 ```
 
 ## Errors
