@@ -65,4 +65,4 @@ $this->row('SELECT * FORM users');
 
 ## Errors
 
-If the `debug` configuration setting is set to `true`, full error detail will be shown in the browser if an error or exception occurs. If it's set to `false`, a generic message will be shown using the [app/Views/404.php](app/Views/404.php) or [app/Views/500.html](app/Views/500.php) views, depending on the error.
+If the `debug` configuration setting is set to `true`, full error detail will be shown in the browser if an error or exception occurs. If it's set to `false`, a generic message will be shown using the [app/Views/404.php](app/Views/404.php) or [app/Views/500.php](app/Views/500.php) views, depending on the error.
